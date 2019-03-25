@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API_Scratcher</name>
+    </assembly>
+    <members>
+        <member name="M:API_Scratcher.Controllers.translationController.GetTranslation(System.String,System.String)">
+            <summary>
+            Input text for input field, and then add langauge code for what language you want back
+            </summary>
+            <param name="inputvalue"></param>
+            <param name="language_code"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
