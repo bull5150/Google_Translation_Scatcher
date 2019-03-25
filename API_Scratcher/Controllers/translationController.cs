@@ -21,8 +21,8 @@ namespace API_Scratcher.Controllers
         [Route("")]
         public string GetTranslation(string inputvalue, string language_code)
         {
-            //documentation here: https://cloud.google.com/translate/docs/quickstart?csw=1
-            //enable api here maybe: https://console.cloud.google.com/apis/api/translate.googleapis.com/overview?project=curious-song-235615&folder&organizationId
+            //documentation here: https://cloud.google.com/translate/docs/quickstart
+            //enable api here maybe: https://console.cloud.google.com/apis/api/translate.googleapis.com/
             string credential_path = @"FilePath\googlekey.json";
             System.Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", credential_path);
             Console.OutputEncoding = System.Text.Encoding.Unicode;
